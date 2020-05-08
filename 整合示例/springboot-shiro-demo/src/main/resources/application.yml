@@ -1,0 +1,10 @@
+shiro:
+  web:
+    enabled: true
+  loginUrl: /login
+spring:
+  freemarker:
+    suffix: .ftl # 注意新版本后缀是 .ftlh
+    template-loader-path: classpath:/templates/
+    settings:
+      classic_compatible: true #处理空值
